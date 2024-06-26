@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header button {
+    animation: colorchnage 1s linear infinite;
+}
+@keyframes colorchnage {
+    from {
+        background-color: blue;
+        color:white;
+    }
+    to {
+        background-color: yellow;
+        color:white;
+    }
+    
+}
