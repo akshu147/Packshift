@@ -8,6 +8,24 @@
 header button {
     animation: colorchnage 1s linear infinite;
 }
+.truck {
+    display: inline-block;
+    position: fixed;
+    left: 0px;
+    bottom: 6px;
+    animation: truck 8s linear infinite;
+}
+.truck img:nth-child(2) {
+    position: absolute;
+    bottom: -7px;
+    left:7px;
+}
+.truck img:nth-child(3) {
+    position: absolute;
+    bottom: -7px;
+    right: 7px;
+
+}
 @keyframes colorchnage {
     from {
         background-color: blue;
@@ -17,5 +35,17 @@ header button {
         background-color: yellow;
         color:white;
     }
+    
+}
+@keyframes truck {
+    from {
+        left:-10%;
+    }
+    to {
+        left:100%;
+    }
+
+
+   
     
 }
